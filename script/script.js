@@ -1,7 +1,7 @@
 "use strict";
 var urlParams = new URLSearchParams(window.location.search);
 // Yeah, I know it's pretty unorganized at the moment
-let factorMult = 1;
+let factorMult = 8;
 let bfactorMult = 1;
 let succAutoMult = 1;
 let limAutoMult = 1;
@@ -23,14 +23,14 @@ let clickCoolDown = 0;
 let infinityButtonText = 0;
 let game;
 const factorShiftCosts = [
-  200,
+  10,
+  100,
   1000,
-  10000,
-  350000,
-  1e12,
-  1e21,
-  1e100,
-  1.095e272,
+  30000,
+  112,
+  121,
+  1100,
+  1272,
   Infinity
 ];
 const factorCostExp = [2, 2, 2, 3, 3, 6, 30, 100];
